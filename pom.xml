@@ -1,21 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.xiaobawang.springcloud</groupId>
     <artifactId>microservicecloud</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>microservicecloud-api</module>
-        <module>microservicecloud-provider-dept-8001</module>
-        <module>microservicecloud-consumer-dept-80</module>
-        <module>microservicecloud-eureka-7001</module>
-        <module>microservicecloud-eureka-7002</module>
-        <module>microservicecloud-eureka-7003</module>
-    </modules>
+
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,4 +89,16 @@
     </build>
 
 
+    <modules>
+        <module>microservicecloud-api</module>
+        <module>microservicecloud-provider-dept-8001</module>
+        <module>microservicecloud-consumer-dept-80</module>
+        <module>microservicecloud-eureka-7001</module>
+        <module>microservicecloud-eureka-7002</module>
+        <module>microservicecloud-eureka-7003</module>
+        <module>microservicecloud-provider-dept-8002</module>
+        <module>microservicecloud-provider-dept-8003</module>
+    </modules>
+
 </project>
+
