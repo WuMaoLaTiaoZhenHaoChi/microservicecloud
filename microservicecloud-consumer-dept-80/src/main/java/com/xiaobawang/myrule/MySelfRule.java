@@ -1,4 +1,4 @@
-package com.xiaobawang.springcloud.myrule;
+package com.xiaobawang.myrule;
 
 
 import com.netflix.loadbalancer.IRule;
