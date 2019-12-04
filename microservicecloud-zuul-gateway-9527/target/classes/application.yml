@@ -13,6 +13,14 @@ eureka:
     instance-id: gateway-9527.com
     prefer-ip-address: true
 
+zuul:
+  #ignored-services: microservicecloud-dept
+  prefix: /duant  #公共前缀
+  ignored-services: "*"  #屏蔽
+  routes:
+    mydept.serviceId: microservicecloud-dept
+    mydept.path: /mydept/** #虚拟服务名
+
 info:
   app.name: xiaobawang-microcloud
   company.name: www.atguigu.com
